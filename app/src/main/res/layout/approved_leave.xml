@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_bg"
+    app:cardUseCompatPadding="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/truck_number"
+            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+            android:text="Casual Leave(Full day)"
+            android:layout_height="0dp"
+            android:fontFamily="@font/poppins_med"
+            android:paddingHorizontal="5dp"
+            android:singleLine="true"
+            android:letterSpacing="0.1"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textAllCaps="true"
+            android:id="@+id/leaveDuration"
+            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+            android:text="Jan. 14,2024 To Jan. 14,2024"
+            android:layout_height="0dp"
+            android:fontFamily="@font/poppins_med"
+            android:paddingHorizontal="5dp"
+            android:singleLine="true"
+            android:letterSpacing="0.1"
+            android:textColor="@color/black_shade"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/leaveReason"
+            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+            android:text="Going to Trip"
+            android:layout_height="0dp"
+            android:fontFamily="@font/poppins_med"
+            android:paddingHorizontal="5dp"
+            android:singleLine="true"
+            android:letterSpacing="0.1"
+            android:textColor="@color/black_shade"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/appliedDate"
+            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+            android:text="Applied On 12 Jan,2024"
+            android:layout_height="0dp"
+            android:fontFamily="@font/poppins_med"
+            android:paddingHorizontal="5dp"
+            android:singleLine="true"
+            android:letterSpacing="0.1"
+            android:textColor="@color/black_shade"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/light_gray" />
+
+        <LinearLayout
+            android:id="@+id/hidden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/approvedBy"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:text="Aprroved by"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_med"
+                    android:paddingHorizontal="5dp"
+                    android:singleLine="true"
+                    android:letterSpacing="0.1"
+                    android:textColor="@color/black_shade"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/approvedByName"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:text="Saurabh"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_med"
+                    android:paddingHorizontal="5dp"
+                    android:singleLine="true"
+                    android:letterSpacing="0.1"
+                    android:textColor="@color/black_shade"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/approvedOn"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:text="Aprroved On"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_med"
+                    android:paddingHorizontal="5dp"
+                    android:singleLine="true"
+                    android:letterSpacing="0.1"
+                    android:textColor="@color/black_shade"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/approvedOnDate"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:text="13 Jan, 2024"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_med"
+                    android:paddingHorizontal="5dp"
+                    android:singleLine="true"
+                    android:letterSpacing="0.1"
+                    android:textColor="@color/black_shade"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/approvedRemark"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:text="Aprroved Remark"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_med"
+                    android:paddingHorizontal="5dp"
+                    android:singleLine="true"
+                    android:letterSpacing="0.1"
+                    android:textColor="@color/black_shade"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/approvedRemarkText"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:text="Nothing"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_med"
+                    android:paddingHorizontal="5dp"
+                    android:singleLine="true"
+                    android:letterSpacing="0.1"
+                    android:textColor="@color/black_shade"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
